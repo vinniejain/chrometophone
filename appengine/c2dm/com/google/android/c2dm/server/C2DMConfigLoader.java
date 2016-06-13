@@ -127,7 +127,7 @@ public class C2DMConfigLoader {
                     BufferedReader reader = new BufferedReader(new InputStreamReader(is));
                     token = reader.readLine();
                 } else {
-                  // happens on developement: delete entity from viewer, change
+                  // happens on development: delete entity from viewer, change
                   // token below, and run it again
                   log.log(Level.WARNING, "File " + TOKEN_FILE +
                       " not found on classpath, using hardcoded token");
